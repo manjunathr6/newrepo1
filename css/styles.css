@@ -1,0 +1,38 @@
+
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+overflow: visible;
+height: inherit;
+width: inherit;
+display: inline-block;
+
+}
+
+
+
+.section1 {
+    padding: 40px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 74% 86%, 75% 100%, 54% 86%, 0 87%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 74% 86%, 75% 100%, 54% 86%, 0 87%);
+    min-height: 340px;
+}
+.bg {
+  background-color: #9acad2;
+  padding: 20px;
+}
+.is-24 {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+.fill-red {
+  fill: red;
+}
+.fill-green {
+  fill: green;
+}
+.fill-yellow {
+  fill: yellow;
+}
+.fill-purple {
+  fill: purple;
+}
